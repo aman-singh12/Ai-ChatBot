@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Poppins&display=swap');
+
+*{
+  padding: 0;
+  margins: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+ animation : fadeIn 3.5s;
+}
+
+@keyframes fadeIn{    //to make it responsive for slow size.
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
